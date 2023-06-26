@@ -1,0 +1,23 @@
+.a{
+    border-color: rgba(178, 53, 53);
+    border-style: dotted dashed double solid;
+    background-color: (#3258a8);
+}
+
+table{
+    background-color: rgba(120,250,160,0.0);
+    color: rgb(147, 27, 27);
+    font-size: large;
+}
+div > a:hover{
+    color:red;
+}
+div >a:visited{
+    color:green;
+}
+
+#one{
+    color: antiquewhite;
+    background-color: rgb(200,150,170);
+    
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        body{
+            background-image: url(student.jpg);
+        }
+        div{
+            
+            
+            display: flex;
+            justify-content: center;
+            background-color: antiquewhite;
+            height: 350px;
+            width: 350px;
+            border: solid 2px;
+            margin-left: 450px;
+            margin-top: 100px;
+            border-radius: 10px;
+        }
+        .a{
+            border-radius: 5px;
+        }
+    </style> 
+</head>
+<body>
+    <header id="home">
+        <img src="logo1.png" alt="" height="50" width="50">
+    <nav>
+    <a href="home.html">Home</a>
+    <a href="course.html">Course</a>
+    <a href="#">Download</a>
+    <a href="login.html">Login</a>
+</nav>
+
+</header>
+    <div align="center">
+        
+    <form action="loginsuccessfully.html" >
+        <!-- <fieldset> -->
+            <h2>login form</h2>
+            <!-- <label for="username/mobile_no.">username/mobile_no.</label> -->
+            <input class="a" type="text" name="username/mobile_no." placeholder="username/mobile_no.">
+            <br><br>
+            <!-- <label for="password">password</label> -->
+            <input class="a" type="password" name="password" placeholder="password"><br><br>
+            <input type="submit" value="login" >
+            <input type="reset"><br><br><br>
+            <p>Are you already Signed up ? <a href="register.html">Sign Up</a> </p>
+
+        <!-- </fieldset> -->
+    </form>
+
+</div>
+</body>
+</html>

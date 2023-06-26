@@ -1,0 +1,36 @@
+#one{
+    background-color: blueviolet;
+}
+
+#two{
+
+    background-color: rgb(20,255,20);
+}
+
+#three{
+    background-color: #6732a8;
+}
+
+#four{
+    background-color: rgba(255,20,20,0.5);
+}
+
+.a{
+    background-color: darkblue;
+
+}
+
+.b{
+    background-color: coral;
+}
+
+.c{
+    background-color: darkolivegreen;
+}
+div>p{
+    color: darkslategray;
+}
+#five{
+    color: darkmagenta;
+
+}

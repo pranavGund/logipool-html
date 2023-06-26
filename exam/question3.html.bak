@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <table border="n">
+        <caption>cell that span two rows</caption>
+        <tr>
+        <th>names:</th>
+		<td>vikas rawat</td>
+		</tr>
+		<tr>
+		<th>telephone:</th>
+		<td>9125577854</td>
+		</tr>
+		<tr>
+		<td> 9730528318</td>
+		</tr>
+		
+</body>
+</html>
