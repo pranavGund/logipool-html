@@ -50,13 +50,27 @@
 //queryselectorAll
 
 
- var headline=document.querySelectorAll("#tagline");
- headline.style.color="blue";
+// var items=document.querySelector(".list-items");
+// items.style.backgroundColor="pink";
 
-var items=document.querySelector(".list-items");
-items.style.backgroundColor="pink";
+// console.log(items);
 
-console.log(headline);
+// var items=document.querySelectorAll("li:nth-child(odd)")
+// items[0].style.Color="yellow";
+
+// console.log(items);
+// for(i=0;i<items.length;i++)
+// {
+//     items[i].style.backgroundColor="blue"
+// }
+
+var items=document.querySelectorAll("li:nth-child(even)")
+
+for(i=0;i<items.length;i++)
+{
+    items[i].style.backgroundColor="yellow";
+}
+
 
 
 
