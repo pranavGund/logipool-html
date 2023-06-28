@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria;
+}
+header{
+    background-color: yellowgreen;
+    color: crimson;
+    padding: 15px 0px 20px 40px;
+}
+h2 #header-title{
+    padding: 10px 0px;
+}
+div #content{
+    padding: 15px 0px 0px 45px;
+}
+li.list-item{
+    border-bottom: 1px solid gray;
+}
+form{
+    padding-top: 20px;
+}
+form >input,button{
+    padding: 5px;
+}
