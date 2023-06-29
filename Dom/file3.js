@@ -11,7 +11,7 @@ newDiv.id = 'textbox';
 
 console.log(newDiv);
 console.log(newDivText);
-//add content to div 
+//add content to div  
 
  newDiv.appendChild(newDivText);
 
